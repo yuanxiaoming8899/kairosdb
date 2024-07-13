@@ -1,37 +1,24 @@
-![KairosDB](webroot/img/kairosdb.png)
-[![Build Status](https://travis-ci.org/kairosdb/kairosdb.svg?branch=develop)](https://travis-ci.org/kairosdb/kairosdb)
-
-KairosDB is a fast distributed scalable time series database written on top of Cassandra.
-
-## Documentation
-
-Documentation is found [here](http://kairosdb.github.io/website/).
-
-[Frequently Asked Questions](https://github.com/kairosdb/kairosdb/wiki/Frequently-Asked-Questions)
-
-## Installing
-
-Download the latest [KairosDB release](https://github.com/kairosdb/kairosdb/releases).
-
-Installation instructions are found [here](http://kairosdb.github.io/docs/build/html/GettingStarted.html)
-
-If you want to test KairosDB in Kubernetes please follow the instructions from [KairosDB Helm chart](deployment/helm/README.md).
-
-## Getting Involved
-
-Join the [KairosDB discussion group](https://groups.google.com/forum/#!forum/kairosdb-group).
-
-## Contributing to KairosDB
-
-Contributions to KairosDB are **very welcome**. KairosDB is mainly developed in Java, but there's a lot of tasks for non-Java programmers too, so don't feel shy and join us!
-
-What you can do for KairosDB:
-
-- [KairosDB Core](https://github.com/kairosdb/kairosdb): join the development of core features of KairosDB.
-- [Website](https://github.com/kairosdb/kairosdb.github.io): improve the KairosDB website.
-- [Documentation](https://github.com/kairosdb/kairosdb/wiki/Contribute:-Documentation): improve our documentation, it's a very important task.
-
-If you have any questions about how to contribute to KairosDB, [join our discussion group](https://groups.google.com/forum/#!forum/kairosdb-group) and tell us your issue.
-
-## License
-The license is the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/kairosdb/kairosdb/blob/develop/webroot/img/kairosdb.png"><img src="/kairosdb/kairosdb/raw/develop/webroot/img/kairosdb.png" alt="Kairos数据库" style="max-width: 100%;"></a>
+<a href="https://travis-ci.org/kairosdb/kairosdb" rel="nofollow"><img src="https://camo.githubusercontent.com/d4c1fb2ac0e605ad0e8178155ded08f65aa0bd05a9bceefe9c169f4849426624/68747470733a2f2f7472617669732d63692e6f72672f6b6169726f7364622f6b6169726f7364622e7376673f6272616e63683d646576656c6f70" alt="构建状态" data-canonical-src="https://travis-ci.org/kairosdb/kairosdb.svg?branch=develop" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KairosDB 是一个基于 Cassandra 编写的快速分布式可扩展时间序列数据库。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档可以</font></font><a href="http://kairosdb.github.io/website/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+<p dir="auto"><a href="https://github.com/kairosdb/kairosdb/wiki/Frequently-Asked-Questions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经常问的问题</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installing" class="anchor" aria-label="固定链接：安装" href="#installing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载最新的</font></font><a href="https://github.com/kairosdb/kairosdb/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KairosDB 版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装说明可</font></font><a href="http://kairosdb.github.io/docs/build/html/GettingStarted.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处找到</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/kairosdb/kairosdb/blob/develop/deployment/helm/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在 Kubernetes 中测试 KairosDB，请按照KairosDB Helm chart</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的说明进行操作</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卷入</font></font></h2><a id="user-content-getting-involved" class="anchor" aria-label="永久链接：参与其中" href="#getting-involved"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入</font></font><a href="https://groups.google.com/forum/#!forum/kairosdb-group" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KairosDB讨论组</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对 KairosDB 的贡献</font></font></h2><a id="user-content-contributing-to-kairosdb" class="anchor" aria-label="永久链接：为 KairosDB 做贡献" href="#contributing-to-kairosdb"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大家为 KairosDB 做出贡献</font><font style="vertical-align: inherit;">。KairosDB 主要用 Java 开发，但非 Java 程序员也有很多任务，所以不要害羞，加入我们吧！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以为KairosDB做什么：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/kairosdb/kairosdb"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KairosDB Core</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：参与KairosDB核心功能的开发。</font></font></li>
+<li><a href="https://github.com/kairosdb/kairosdb.github.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：改进 KairosDB 网站。</font></font></li>
+<li><a href="https://github.com/kairosdb/kairosdb/wiki/Contribute:-Documentation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：改进我们的文档，这是一项非常重要的任务。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对如何为 KairosDB 做出贡献有任何疑问，</font></font><a href="https://groups.google.com/forum/#!forum/kairosdb-group" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请加入我们的讨论组</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并告诉我们您的问题。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该许可证是</font></font><a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 许可证 2.0</font></font></a></p>
+</article></div>
